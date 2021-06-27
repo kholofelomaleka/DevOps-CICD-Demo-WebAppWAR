@@ -1,2 +1,3 @@
 localhost ansible_connection=local
-ubuntu@172.31.29.70
+#kslave1 ip is 172.31.23.199
+kslave1 ansible_connection=ssh user=ubuntu
